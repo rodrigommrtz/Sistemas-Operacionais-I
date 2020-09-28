@@ -50,7 +50,7 @@ public class Threads extends Thread{
 			try {
 				sleep(100); // envio da info a cada 0,1 seg (100 milissegundos)
 				int percentual = (int) ((i / tempo) * 100); // para transfomrar o número em XX %
-				System.out.println((prato +1) +"º prato - conluído em: " +percentual +" % ");
+				System.out.println((prato +1) +"º prato - conluído em: " +percentual +"% ");
 			} catch (Exception erro) {				
 			}
 		}
